@@ -77,7 +77,15 @@ Release artifacts must define the text range before layout. Required credit:
 
 Keep title hierarchy, typography, colors, spacing, punctuation, lyric formatting, credit placement, and cover/player treatment consistent. HTML release previews must accommodate phone, tablet, and desktop widths; test long titles, long lyrics, image scaling, audio containers, wrapping, and footer visibility.
 
-### 7. Versioning and default project path
+### 7. HTML deliverables and web-sourced materials
+
+When making an HTML preview, usage guide, release page, or other visual artifact, obtain visual/content materials from the relevant website or other user-provided web source when such a source exists. Inspect the source directly, use only materials that are relevant and permitted, preserve source attribution where needed, and do not invent product facts, logos, screenshots, or statistics. If the website cannot be read, say so and use clearly labeled placeholders or ask for supplied materials.
+
+Keep the HTML focused on the user's content and visual system. Do not paste a full Suno Style into an HTML page. Instead, show a few concise Style core phrases or keywords, such as `cinematic Chinese folk-pop`, `restrained low-mid vocal`, `subtle strings`, or `no belting`; choose only the phrases relevant to the current song. Do not use repetitive fixed prose such as “成熟男声，低中音区为主，吐字清楚……” as a generic description. Translate the confirmed direction into short, natural display copy.
+
+For HTML output, keep text scope, typography, colors, spacing, and credit consistent; test narrow and wide layouts, long Chinese text, image scaling, audio containers, wrapping, and footer visibility. Required public credit remains `Aaron，Z作品`.
+
+### 8. Versioning and default project path
 
 Once the title is confirmed, use the default root:
 
@@ -109,7 +117,7 @@ Suggested per-song layout:
 
 Never overwrite an accepted version. Use v1.0 for the first confirmed version, v1.1/v1.2 for local revisions, and v2.0 for a material change in theme, structure, or direction. Before saving a revision, reread the actual file; after saving, read back path, name, size, and relevant content.
 
-### 8. Artifact-based progress with manual override
+### 9. Artifact-based progress with manual override
 
 Default progress mode is artifact-based. Inspect the confirmed song folder and infer only what the artifacts prove:
 
@@ -129,7 +137,7 @@ Do not infer listening, selection, visual QA, publication, or generated audio fr
 
 The user may manually set any stage to `completed`, `current`, or `not completed`. Manual changes override automatic inference until the user requests a rescan or returns to automatic mode. Show both the status and its source (`artifact` or `manual`) when possible.
 
-### 9. Lightweight creative record
+### 10. Lightweight creative record
 
 Every song's version record includes this optional, concise section. It is a creative trace, not a comprehensive project report; fields may be left blank.
 
