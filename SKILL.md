@@ -29,13 +29,19 @@ After the theme is confirmed, make a whole-song view even if the title, lyrics, 
 
 The overall view is the alignment anchor. Do not let title, lyrics, Style, and cover independently drift away from it.
 
+Every song is held to a high creative target: treat the confirmed title, lyrics, Style, and overall performance as candidates for a lasting classic and a widely loved hit. This is a quality target, not a promise of popularity. Judge choices by memorability, emotional truth, singability, distinctiveness, replay value, and whether the complete song feels intentional rather than merely polished.
+
 ### 3. Parallel choices
 
 When there are multiple genuinely parallel options, offer choices instead of silently selecting one. Recommend Style and performance directions from the current theme plus prior preferences, then let the user choose.
 
 Use **murpick** when the user must compare or check multiple options such as titles, lyric routes, Styles, vocal/performance routes, cover directions, release styles, or Skill modules. Treat checked and unchecked choices as decisions. Do not invoke murpick for a single clear path or routine local lyric edit. If adapting murpick to a pure choice menu, state which default research/menu stages were omitted and why.
 
-### 4. Title and lyric gates
+### 4. Pre-preview creative inspection
+
+Before showing a lyric preview, inspect the complete lyric together with the overall view and intended performance. Check for inappropriate or out-of-place wording, unnatural diction or singing, missing logic, broken emotional transitions, over-explanation, forced literary language, excessive colloquial phrasing, and words/lines/sections that need polishing for performance. Revise or flag issues before presenting the preview. The standard is natural, unforced, neither affected nor casual for its own sake.
+
+### 5. Title and lyric gates
 
 Present title candidates with their mood, imagery, and risks; wait for title direction confirmation before saving song files. Draft lyrics only after the overall view and title direction are stable. Preview lyrics before writing files. For a near-final draft, make contextual, local “surgical” edits; preserve accepted structure, imagery, and meaning. Check the whole lyric after every revision for natural Chinese, breath-friendly phrasing, singability, repetition, and a coherent emotional spine.
 
@@ -49,7 +55,7 @@ Default lyric aesthetics:
 - let light, shadow, time rotation, weather, and observed action reveal the inner life;
 - use connected enjambment sparingly—normally one or two connected moments only when meaning naturally continues across lines.
 
-### 5. Style and performance
+### 6. Style and performance
 
 Only after lyrics are confirmed, write the final Suno Style. Keep Style focused on musical controls, not a duplicate story summary. Recommended order:
 
@@ -60,12 +66,18 @@ Default user preference:
 - lyric sensibility associated with 唐恬: natural, detailed, emotionally restrained, image-led;
 - mature male vocal traits associated with 陈楚生、杨宗纬、郑中基、王杰: clear diction, lived-in expression, useful low/mid register, controlled tension;
 - do not imitate a named singer; translate the reference into vocal, register, phrasing, diction, and emotional traits;
-- avoid continuous high singing, shouting, tearing, forced tails, crying, dramatic key changes, and volume-only climaxes;
+- do not make the volume excessively loud. A chorus does not have to contain the song title;
+- when both male and female voices are used, the secondary voice must not be only harmony: create audible contrast through tail-word handoffs, full-line alternation, call-and-response, or section changes. For long lines, use rhythmic accents, pauses, and dynamic variation so a low register still has force and layers;
+- require a clear melodic line and emotional progression. Let power come from rhythm, breath, accents, harmony, timbre, and arrangement changes;
+- prohibit high-note sprints, sustained high register, shouting, sharp head voice, forced upward transposition, and explosive endings;
+- a rap section may be fast and dense, but stays in a lower register with clear diction;
+- after rapid rap, a Spoken section may suddenly strip back to slow, low, close, unpitched reading;
+- give the chorus strength without raising the register: use low/mid melody, wide harmony, and drum-group motion to create tension;
 - allow a local lift, then return to a relaxed low/mid register.
 
 For Suno v4.5-all, count the exact final Style characters. Treat `<=1000` as a hard delivery gate. A concise Style is a starting heuristic, not proof of musical success; actual generations and listening are required.
 
-### 6. Audio, cover, and release gates
+### 7. Audio, cover, and release gates
 
 Distinguish prepared inputs, generated audio, listened candidates, and selected audio. Never claim audio generation or listening from the existence of lyric/Style files.
 
@@ -77,7 +89,7 @@ Release artifacts must define the text range before layout. Required credit:
 
 Keep title hierarchy, typography, colors, spacing, punctuation, lyric formatting, credit placement, and cover/player treatment consistent. HTML release previews must accommodate phone, tablet, and desktop widths; test long titles, long lyrics, image scaling, audio containers, wrapping, and footer visibility.
 
-### 7. HTML deliverables and web-sourced materials
+### 8. HTML deliverables and web-sourced materials
 
 When making an HTML preview, usage guide, release page, or other visual artifact, obtain visual/content materials from the relevant website or other user-provided web source when such a source exists. Inspect the source directly, use only materials that are relevant and permitted, preserve source attribution where needed, and do not invent product facts, logos, screenshots, or statistics. If the website cannot be read, say so and use clearly labeled placeholders or ask for supplied materials.
 
@@ -85,7 +97,7 @@ Keep the HTML focused on the user's content and visual system. Do not paste a fu
 
 For HTML output, keep text scope, typography, colors, spacing, and credit consistent; test narrow and wide layouts, long Chinese text, image scaling, audio containers, wrapping, and footer visibility. Required public credit remains `Aaron，Z作品`.
 
-### 8. Versioning and default project path
+### 9. Versioning and default project path
 
 Once the title is confirmed, use the default root:
 
@@ -117,7 +129,7 @@ Suggested per-song layout:
 
 Never overwrite an accepted version. Use v1.0 for the first confirmed version, v1.1/v1.2 for local revisions, and v2.0 for a material change in theme, structure, or direction. Before saving a revision, reread the actual file; after saving, read back path, name, size, and relevant content.
 
-### 9. Artifact-based progress with manual override
+### 10. Artifact-based progress with manual override
 
 Default progress mode is artifact-based. Inspect the confirmed song folder and infer only what the artifacts prove:
 
@@ -137,7 +149,7 @@ Do not infer listening, selection, visual QA, publication, or generated audio fr
 
 The user may manually set any stage to `completed`, `current`, or `not completed`. Manual changes override automatic inference until the user requests a rescan or returns to automatic mode. Show both the status and its source (`artifact` or `manual`) when possible.
 
-### 10. Lightweight creative record
+### 11. Lightweight creative record
 
 Every song's version record includes this optional, concise section. It is a creative trace, not a comprehensive project report; fields may be left blank.
 
@@ -183,4 +195,7 @@ Ask only for missing variables that materially affect the direction:
 - Overwriting a prior version: create the next version and preserve the archive.
 - Scanning a non-existent directory: notify and wait for directory creation or a new path.
 - Calling murpick for ceremony: use it only for real parallel choices.
+- Making intensity equal loudness or high notes: build force through rhythm, breath, accents, harmony, timbre, and arrangement.
+- Treating a female/male part as decorative harmony: use handoffs, alternation, call-and-response, or section contrast when dual vocals are intended.
+- Showing a preview without whole-song inspection: run the pre-preview creative inspection first.
 
