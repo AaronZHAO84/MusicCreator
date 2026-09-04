@@ -39,11 +39,11 @@ Use **murpick** when the user must compare or check multiple options such as tit
 
 ### 4. Pre-preview creative inspection
 
-Before showing a lyric preview, inspect the complete lyric together with the overall view and intended performance. Check for inappropriate or out-of-place wording, unnatural diction or singing, missing logic, broken emotional transitions, over-explanation, forced literary language, excessive colloquial phrasing, and words/lines/sections that need polishing for performance. Revise or flag issues before presenting the preview. The standard is natural, unforced, neither affected nor casual for its own sake.
+Before showing a lyric preview, independently inspect the complete lyric together with the overall view and intended performance. Check for inappropriate or out-of-place wording, unnatural diction or singing, missing logic, broken emotional transitions, over-explanation, forced literary language, excessive colloquial phrasing, repetition, and words/lines/sections that need polishing for performance. Fix every clear issue before presenting the preview; do not provide an obviously general or rough draft merely to wait for the user to ask for corrections. The standard is natural, unforced, neither affected nor casual for its own sake.
 
 ### 5. Title and lyric gates
 
-Present title candidates with their mood, imagery, and risks; wait for title direction confirmation before saving song files. Draft lyrics only after the overall view and title direction are stable. Preview lyrics before writing files. For a near-final draft, make contextual, local “surgical” edits; preserve accepted structure, imagery, and meaning. Check the whole lyric after every revision for natural Chinese, breath-friendly phrasing, singability, repetition, and a coherent emotional spine.
+Present title candidates with their mood, imagery, and risks; by default draw on classical Chinese language and imagery from the *Book of Songs*, classical poetry, ci poetry, and other古文 when appropriate. Borrow the atmosphere and semantic resonance, not unexamined quotations or archaic ornament. Wait for title direction confirmation before saving song files. Draft lyrics only after the overall view and title direction are stable. Preview lyrics before writing files, but run the full pre-preview inspection first and complete obvious optimizations before showing the user. For a near-final draft, make contextual, local “surgical” edits; preserve accepted structure, imagery, and meaning. Check the whole lyric after every revision for natural Chinese, breath-friendly phrasing, singability, repetition, and a coherent emotional spine.
 
 Default lyric aesthetics:
 
@@ -198,4 +198,6 @@ Ask only for missing variables that materially affect the direction:
 - Making intensity equal loudness or high notes: build force through rhythm, breath, accents, harmony, timbre, and arrangement.
 - Treating a female/male part as decorative harmony: use handoffs, alternation, call-and-response, or section contrast when dual vocals are intended.
 - Showing a preview without whole-song inspection: run the pre-preview creative inspection first.
+- Offering a rough lyric and waiting for the user to request obvious fixes: complete the inspection and clear optimizations before preview.
+- Choosing a generic modern title when classical resonance fits: consult the *Book of Songs*, classical poetry, ci poetry, and other古文 before naming.
 
