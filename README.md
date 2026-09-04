@@ -1,4 +1,4 @@
-# musicCreator
+# MCreator
 
 一个用于中文歌曲创作、Suno 制作、演唱方向、音频筛选、封面与发布整理的 Codex Skill。
 
@@ -7,7 +7,7 @@
 直接对 Codex 说：
 
 ```text
-使用 musicCreator，帮我创作一首关于……的歌
+使用 MCreator，帮我创作一首关于……的歌
 ```
 
 Skill 会围绕以下顺序工作：
@@ -38,7 +38,7 @@ Skill 会围绕以下顺序工作：
 
 ## 文件
 
-- [SKILL.md](./SKILL.md)：Skill 主文件
+- [SKILL.md](./SKILL.md)：MCreator Skill 主文件
 - [musicCreator 使用说明](./docs/musicCreator_使用说明.html)：可视化使用说明
 
 ## 版本规范
