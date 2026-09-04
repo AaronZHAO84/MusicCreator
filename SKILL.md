@@ -1,9 +1,9 @@
 ---
-name: musiccreator
+name: mcreator
 description: Use when creating, revising, arranging, packaging, or releasing a Chinese song and the work needs a consistent theme, lyric, Suno Style, vocal direction, version record, artifact tracking, or release preview workflow.
 ---
 
-# musicCreator
+# MCreator
 
 Use this skill as the default workflow for the user's Chinese songwriting and Suno projects. The goal is not to write a full project report; it is to keep the song's theme, lyrics, music, performance, files, and release presentation aligned.
 
@@ -66,7 +66,7 @@ Default user preference:
 - lyric sensibility associated with 唐恬: natural, detailed, emotionally restrained, image-led;
 - mature male vocal traits associated with 陈楚生、杨宗纬、郑中基、王杰: clear diction, lived-in expression, useful low/mid register, controlled tension;
 - do not imitate a named singer; translate the reference into vocal, register, phrasing, diction, and emotional traits;
-- do not make the volume excessively loud. A chorus does not have to contain the song title;
+- do not make the volume excessively loud. Lyrics should generally avoid appearing in the chorus, but this is a flexible preference, not a ban: include a lyric or the song title in the chorus when the song's expression, hook, or emotional logic genuinely needs it;
 - when both male and female voices are used, the secondary voice must not be only harmony: create audible contrast through tail-word handoffs, full-line alternation, call-and-response, or section changes. For long lines, use rhythmic accents, pauses, and dynamic variation so a low register still has force and layers;
 - require a clear melodic line and emotional progression. Let power come from rhythm, breath, accents, harmony, timbre, and arrangement changes;
 - prohibit high-note sprints, sustained high register, shouting, sharp head voice, forced upward transposition, and explosive endings;
